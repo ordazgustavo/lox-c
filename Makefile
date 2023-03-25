@@ -1,6 +1,6 @@
-CFLAGS = -Wall -ansi -pedantic
+CFLAGS = -Wall -Wextra -std=c18 -pedantic
 
-SRC=$(wildcard *.c)
+SRC=$(wildcard ./src/*.c)
 
 all: clean lox
 
